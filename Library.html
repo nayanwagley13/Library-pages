@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-library</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 80%;
+      max-width: 1200px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 30px;
+      color: #1e3a8a; /* Dark blue color */
+    }
+
+    .book-card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      margin-bottom: 30px;
+      overflow: hidden;
+      transition: box-shadow 0.3s ease;
+    }
+
+    .book-card:hover {
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .book-card img {
+      width: 100%;
+      height: auto;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .book-info {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .book-info h2 {
+      font-size: 1.5em;
+      margin: 10px 0;
+    }
+
+    .book-info p {
+      font-size: 1em;
+      color: #555;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 1em;
+      color: #fff;
+      background-color: #1e3a8a; /* Dark blue color */
+      border: none;
+      border-radius: 25px; /* Round corners */
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background-color: #0d2e5d; /* Darker blue on hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to the library</h1>
+    <h1><small>Choose a book and start Reading</small></h1>
+
+    <div class="book-card">
+      <img src="Place1.jpg" alt="Book 1">
+      <div class="book-info">
+        <h2>Arsha</h2>
+        <p>Balen</p>
+        <a href="place1/error.html" class="btn">Read Now</a>
+      </div>
+    </div>
+
+    <div class="book-card">
+      <img src="Place2.jpg" alt="Book 2">
+      <div class="book-info">
+        <h2>Sirish ko Phool</h2>
+        <p>Blue Mimosa</p>
+        <a href="place2/error.html" class="btn">Read Now</a>
+      </div>
+    </div>
+
+    <div class="book-card">
+      <img src="Place3.jpg" alt="Book 3">
+      <div class="book-info">
+        <h2>Seto Bagh</h2>
+        <p>Diamond Sumsher Rana</p>
+        <a href="place3/article.html" class="btn">Read Now</a>
+      </div>
+    </div>
+
+    <div class="book-card">
+      <img src="Place4.jpg" alt="Book 4">
+      <div class="book-info">
+        <h2>Radha</h2>
+        <p>Author Name 4</p>
+        <a href="place4/error.html" class="btn">Read Now</a>
+      </div>
+    </div>
+
+    <div class="book-card">
+      <img src="Place5.jpg" alt="Book 5">
+      <div class="book-info">
+        <h2>Palpasa Cafe</h2>
+        <p>Narayan wagle</p>
+        <a href="Place5/cafe.html" class="btn">Read Now</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+<p></p>
+<a href="library1.html" class="btn">Next page</a>
+<p></p>
+<p></p>
+<p></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Counter</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .page-counter {
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .page-counter a {
+            padding: 10px 15px;
+            margin: 0 5px;
+            border-radius: 12px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .page-counter a:hover {
+            background-color: #0056b3;
+        }
+
+        .page-counter .current-page {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-counter">
+        <a href="Library.html" class="current-page">1</a>
+        <a href="Library1.html">2</a>
+        <a href="page3.html">3</a>
+        <a href="page4.html">4</a>
+        <a href="page5.html">5</a>
+        <a href="page6.html">6</a>
+        <a href="page7.html">7</a>
+        <a href="page8.html">8</a>
+        <a href="page9.html">9</a>
+        <a href="page10.html">10</a>
+    </div>
+</body>
+</html>
+
+
+
